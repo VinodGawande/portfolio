@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinod Gawande | Resume</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Inter, "Segoe UI", sans-serif;
+        background: #0f172a;
+        color: #e5eefc;
+      }
+      .page {
+        max-width: 1100px;
+        margin: 40px auto;
+        background: #0b1120;
+        border: 1px solid #1e293b;
+        border-radius: 18px;
+        overflow: hidden;
+      }
+      .top-bar {
+        background: linear-gradient(90deg, #2563eb, #7c3aed);
+        padding: 18px 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+      }
+      .top-bar h1 {
+        font-size: 1.8rem;
+      }
+      .top-bar button {
+        background: #fff;
+        color: #0f172a;
+        border: 0;
+        padding: 10px 14px;
+        border-radius: 999px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .content {
+        padding: 32px;
+      }
+      .section {
+        margin-bottom: 24px;
+      }
+      .section h2 {
+        color: #93c5fd;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        margin-bottom: 10px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 24px;
+      }
+      .card {
+        background: #111827;
+        border: 1px solid #1f2937;
+        border-radius: 14px;
+        padding: 18px;
+      }
+      .muted { color: #9ca3af; }
+      .bold { font-weight: 700; color: #f8fafc; }
+      ul { padding-left: 18px; }
+      li { margin-bottom: 6px; }
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .tag {
+        background: #1e3a8a;
+        color: #dbeafe;
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-size: 0.85rem;
+      }
+      @media print {
+        body { background: #fff; }
+        .page { margin: 0; max-width: 100%; border-radius: 0; }
+        .top-bar { background: #2563eb !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        .top-bar button { display: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="top-bar">
+        <div>
+          <h1>Vinod Gawande</h1>
+          <div class="muted">Full Stack Developer</div>
+        </div>
+        <button onclick="window.print()">Print / Save PDF</button>
+      </div>
+      <div class="content">
+        <div class="grid">
+          <div class="card">
+            <div class="section">
+              <h2>Profile</h2>
+              <p>
+                Passionate full-stack developer with strong skills in React, Node.js, Express, MongoDB,
+                and modern web technologies. Focused on building scalable, user-friendly applications.
+              </p>
+            </div>
+            <div class="section">
+              <h2>Education</h2>
+              <p class="bold">B.Tech in Computer Science</p>
+              <p class="muted">Graduated with strong focus on software development and web technologies</p>
+            </div>
+            <div class="section">
+              <h2>Projects</h2>
+              <ul>
+                <li>Built responsive portfolio and business websites using React and Tailwind CSS</li>
+                <li>Developed full-stack applications with REST APIs and database integrations</li>
+                <li>Worked on frontend UI/UX improvements and reusable component design</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="section">
+              <h2>Contact</h2>
+              <p><span class="bold">Email:</span> vinodgawande4444@gmail.com</p>
+              <p><span class="bold">Location:</span> Indore, MP, India</p>
+              <p><span class="bold">GitHub:</span> github.com/VinodGawande</p>
+            </div>
+            <div class="section">
+              <h2>Skills</h2>
+              <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

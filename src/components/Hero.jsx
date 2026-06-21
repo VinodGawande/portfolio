@@ -59,7 +59,14 @@ export default function Hero() {
                 <Sparkles className="w-5 h-5" />
                 View My Work
               </a>
-              <a href="#contact" className="btn-outline">
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-outline"
+                aria-label="Open and download resume"
+                download="Vinod_Gawande_Resume.pdf"
+              >
                 <Download className="w-5 h-5" />
                 Download CV
               </a>

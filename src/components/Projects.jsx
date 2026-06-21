@@ -11,7 +11,7 @@ const projects = [
     tags: ['React', 'Node.js', 'MongoDB', 'JWT', 'AI Monitoring'],
     category: 'Full Stack',
     github: 'https://github.com/VinodGawande',
-    demo: '#',
+    demo: 'https://online-exam-client-ashy.vercel.app/',
     featured: true,
   },
   {
